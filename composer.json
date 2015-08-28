@@ -1,0 +1,21 @@
+{
+    "name": "magnum-web/app-skeleton",
+    "description": "A simple application skeleton for new projects.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Marquardt",
+            "email": "fernando@magnumweb.com.br",
+            "homepage": "http://magnumweb.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0@beta"
+    }
+}
