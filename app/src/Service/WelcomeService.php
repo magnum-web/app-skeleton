@@ -1,7 +1,7 @@
 <?php
-namespace App\Facade;
+namespace App\Service;
 
-class WelcomeFacade {
+class WelcomeService {
 
     public function sayHello() {
         echo 'Hello everybody!';
